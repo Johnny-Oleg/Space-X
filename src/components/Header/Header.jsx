@@ -43,7 +43,7 @@ const Header = ({ rockets, changeRocket }) => {
                     </li>
                     <li className="item">
                         <NavLink 
-                            to="calendar" 
+                            to="/calendar" 
                             className="item-link"
                             activeClassName="active"
                         >

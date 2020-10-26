@@ -16,7 +16,7 @@ const Features = props => {
 
     return (
         <>
-            <Main />
+            <Main rocket={name} />
             <section className="features">
                 <h2 className="features-title">
                     {name} <br/>Overview
@@ -54,7 +54,7 @@ const Features = props => {
                             className="rocket"
                         />
                     </RellaxWrapper>
-                        <article>
+                    <article>
                         <h3 className="features-subtitle">DESCRIPTION</h3>
                         <p className="features-text">
                             {description}
@@ -62,7 +62,7 @@ const Features = props => {
                     </article>
                 </div>
             </section>
-        </>    
+        </>
     );
 }
 
