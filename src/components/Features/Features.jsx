@@ -12,7 +12,7 @@ const rocketImages = {
 }
 
 const Features = props => {
-    const {name, height, diameter, mass, payload_weights, description} = props;
+    const { name, height, diameter, mass, payload_weights, description } = props;
 
     return (
         <>

@@ -46,10 +46,10 @@ class App extends React.Component {
       <BrowserRouter>
         <Header rockets={rockets} changeRocket={this.changeRocket} />
         <Route exact path="/" render={() => company && <Home company={company} />} />
-        <Route path="/rocket" render={() => rocketFeatures && <Features {...rocketFeatures} />} />
+        <Route path="/rocket" render={() => rocketFeatures && <Features { ...rocketFeatures } />} />
         <Route path="/calendar" component={Calendar} />
         <Route path="/details/:id" component={Details} />
-        {company && <Footer {...company.links} />}
+        {company && <Footer { ...company.links } />}
       </BrowserRouter>
     );
   }  

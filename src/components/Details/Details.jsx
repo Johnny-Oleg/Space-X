@@ -33,7 +33,7 @@ const Details = props => {
                         <Youtube className="details-youtube" videoId={launch.links.youtube_id} />
                     </div>
                 </div>
-                <a onClick={history.goBack} className="button button-back">go back</a>
+                <a onClick={history.goBack} className="button button-back">Go back</a>
             </main>
         </>    
     );
